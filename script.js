@@ -6,7 +6,7 @@ $(window).scroll(function() {
 
     if ($(window).scrollTop()>75)
      {
-		 $('#under').addClass("change").removeClass("under");
+		 $('.under').fadeOut().addClass("change");
 		 
      }
 	
